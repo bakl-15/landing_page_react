@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import FeatureSection from './components/FeatureSection';
 import Workflow from './components/Workflow';
 import Pricing from './components/Pricing';
+import Testimonials from './components/Testimonials';
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <FeatureSection />
       <Workflow />
       <Pricing />
+      <Testimonials />
     </>
   );
 }
